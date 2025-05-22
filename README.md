@@ -1,3 +1,80 @@
+🌦️ Weather App
+A responsive, real-time weather application built with JavaScript that fetches and displays current weather data using the OpenWeatherMap API. This project demonstrates skills in API integration, DOM manipulation, and client-side error handling.
+
+🧩 Features
+🔍 Search weather by city name
+
+🌡️ Displays temperature, weather status, humidity, and wind speed
+
+🌄 Dynamic icons and backgrounds based on weather
+
+🔁 Error handling for invalid cities or failed requests
+
+⚙️ Responsive layout (mobile-friendly)
+
+⚙️ Tech Stack
+Layer	Tools Used
+Frontend	HTML, CSS, JavaScript
+API	OpenWeatherMap API
+Icons	Font Awesome / Weather Icons (optional)
+Hosting	GitHub Pages / Netlify
+
+📁 Project Structure
+graphql
+Copy
+Edit
+├── index.html         # Main HTML file
+├── style.css          # App styling
+├── script.js          # JavaScript for API and UI logic
+└── README.md
+🚀 How It Works
+User enters a city name in the search box.
+
+JavaScript sends a request to the OpenWeatherMap API.
+
+API returns weather details in JSON.
+
+The app dynamically updates the UI with weather data.
+
+🔐 API Key Setup
+Replace YOUR_API_KEY in script.js with your actual API key from OpenWeatherMap.
+
+javascript
+Copy
+Edit
+const apiKey = "YOUR_API_KEY";
+📈 Future Enhancements
+🌍 Add geolocation to auto-detect user location
+
+🗓️ Show 5-day forecast using the forecast API
+
+🌙 Light/dark mode toggle
+
+📦 Store last searched cities in localStorage
+
+🌐 Backend proxy for secure API key handling
+
+🧠 What I Learned
+How to work with asynchronous code (fetch, async/await)
+
+Parsing and using JSON data from external APIs
+
+Enhancing user experience with real-time feedback and loading states
+
+Error handling and input validation on the frontend
+
+🌐  Demo
+Can refer demo vedio
+
+👨‍💻 Author
+Aparna B B
+📌 GitHub Profile
+💬 Built for learning API integration and frontend development.
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
