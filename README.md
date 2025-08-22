@@ -11,7 +11,7 @@ A simple and responsive React-based weather application that fetches and display
 - Built with React functional components and hooks.
 
 - ## Screenshots
- ![App Screenshot](./screenshots/weatherapp.png)
+ ![App Screenshot](./screenshots.png)
 
 
 ## Technologies Used
